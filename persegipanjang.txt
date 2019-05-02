@@ -1,0 +1,19 @@
+package com.tutorial1;
+
+public class persegipanjang extends BangunDatar {
+
+    float p,l;
+
+    @Override
+    float luas(){
+        float luas = p*l;
+        System.out.println("luas persegi panjang : " + luas);
+        return luas;
+    }
+    @Override
+    float keliling(){
+        float keliling= 2*(p+l);
+        System.out.println("keliling lingkaran : "+keliling);
+        return keliling;
+    }
+}
