@@ -1,0 +1,19 @@
+package com.tutorial1;
+
+public class segitiga extends BangunDatar {
+
+    float a,tinggi,b,c,alas;
+
+    @Override
+    float luas(){
+        float luas = alas*tinggi;
+        System.out.println("luas segitiga : " + luas);
+        return luas;
+    }
+    @Override
+    float keliling(){
+        float keliling= a+b+c;
+        System.out.println("keliling segitiga : "+keliling);
+        return keliling;
+    }
+}
